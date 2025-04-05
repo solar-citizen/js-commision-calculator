@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2022-03-14",
+    "user_id": 5,
+    "user_type": "natural",
+    "type": "cash_in",
+    "operation": { "amount": 825.42, "currency": "EUR" }
+  },
+  {
+    "date": "2022-03-15",
+    "user_id": 2,
+    "user_type": "juridical",
+    "type": "cash_out",
+    "operation": { "amount": 125.75, "currency": "EUR" }
+  },
+  {
+    "date": "2022-03-16",
+    "user_id": 5,
+    "user_type": "natural",
+    "type": "cash_out",
+    "operation": { "amount": 950.0, "currency": "EUR" }
+  },
+  {
+    "date": "2022-03-17",
+    "user_id": 5,
+    "user_type": "natural",
+    "type": "cash_out",
+    "operation": { "amount": 350.5, "currency": "EUR" }
+  },
+  {
+    "date": "2022-03-19",
+    "user_id": 4,
+    "user_type": "juridical",
+    "type": "cash_in",
+    "operation": { "amount": 25000.0, "currency": "EUR" }
+  },
+  {
+    "date": "2022-03-21",
+    "user_id": 5,
+    "user_type": "natural",
+    "type": "cash_out",
+    "operation": { "amount": 2500.0, "currency": "EUR" }
+  },
+  {
+    "date": "2022-03-22",
+    "user_id": 3,
+    "user_type": "natural",
+    "type": "cash_out",
+    "operation": { "amount": 675.25, "currency": "EUR" }
+  },
+  {
+    "date": "2022-03-23",
+    "user_id": 4,
+    "user_type": "juridical",
+    "type": "cash_out",
+    "operation": { "amount": 100.0, "currency": "EUR" }
+  },
+  {
+    "date": "2022-04-04",
+    "user_id": 5,
+    "user_type": "natural",
+    "type": "cash_out",
+    "operation": { "amount": 1250.0, "currency": "EUR" }
+  }
+]

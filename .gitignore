@@ -1,0 +1,5 @@
+# Node modules
+node_modules
+
+# For IntelliJ IDE users (e.g. WebStorm)
+.idea

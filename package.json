@@ -1,0 +1,35 @@
+{
+  "name": "js-commision-calculator",
+  "version": "1.0.0",
+  "description": "Commission fee calculator system",
+  "exports": "./src/index.js",
+  "author": "Vladyslav Tishchenko",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "node --import ./bin/loader-register.js src/index.js data/input.json",
+    "test": "node --import ./bin/loader-register.js ./node_modules/mocha/bin/mocha --recursive tests/**/*.test.js",
+    "test:utils": "node --import ./bin/loader-register.js ./node_modules/mocha/bin/mocha --recursive tests/utils/**/*.test.js",
+    "test:services": "node --import ./bin/loader-register.js ./node_modules/mocha/bin/mocha --recursive tests/services/**/*.test.js",
+    "test:integration": "node --import ./bin/loader-register.js ./node_modules/mocha/bin/mocha --recursive tests/integration/**/*.test.js",
+    "test:file": "node --import ./bin/loader-register.js ./node_modules/mocha/bin/mocha",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "@esbuild-kit/esm-loader": "^2.6.5",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^8.2.0",
+    "chai": "^5.2.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-chai-friendly": "^1.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^16.0.0",
+    "mocha": "^11.1.0"
+  }
+}
